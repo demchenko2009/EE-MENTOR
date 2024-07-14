@@ -1,0 +1,270 @@
+/* font-family: "Raleway", sans-serif; */
+body {
+    font-family: "Raleway", sans-serif;
+}
+h1,h2,h3,h4, p {
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    text-decoration: none;
+}
+img {
+    display: block;
+}
+ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+:root {
+--heder-color: #FDFDFD;
+--numer-color: #10B582;
+--text-color: #353A5A;
+--button-color: #FA9F42;
+
+}
+.header {
+    padding-top: 40px;
+    padding-bottom: 66px;
+background-color: var(--numer-color);
+}
+
+.conteiner {
+width: 1200px;
+padding-left: 15px;
+padding-right: 15px;
+margin-left: auto;
+margin-right: auto;
+
+
+}
+.list {
+    display: flex;
+    gap: 40px;
+    justify-content: center;
+}
+ 
+
+.nav-description {
+    color: var(--heder-color);
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 1;
+
+}
+.nav-description:hover,
+.nav-description:focus {
+color: var(--button-color);
+
+}
+
+ .edukation   { 
+    padding-bottom: 35px;
+    background-color: var(--numer-color);
+    background-image: url(../img/ementorback.png),url(../img/backwoman.png);
+    background-repeat: no-repeat,no-repeat;
+    background-position: 1090px 50px,160px 220px;
+    padding-bottom: 212px;
+    
+
+}
+
+ 
+.list-decoration {
+    display: flex;
+flex-direction: column;
+align-items: flex-start;
+gap: 30px;
+}
+
+
+
+.text-deck {
+    color: var(--heder-color);
+    text-align: center;
+    font-size: 58px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 1.2; 
+    width: 542px;
+    margin-bottom: 20px;
+
+
+}
+
+.item-caption {
+display: flex;
+justify-content: center;
+
+}
+.img {
+    margin-bottom: 40px;
+}
+
+
+.text-disk {
+
+    color: var(--heder-color);
+text-align: center;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: 1.5;
+width: 480px;
+margin-bottom: 50px;
+}
+.button {
+    border-radius: 0px 20px;
+    background: var(--button-color);
+    padding-bottom: 20px;
+padding-top: 20px;
+padding-left: 47px;
+padding-right: 47px;
+}
+
+
+.text-button {
+
+    color: var(--heder-color);
+    text-align: center;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 1;
+
+}
+
+/* section-zeit */
+
+.number-section {
+    padding-top: 120px;
+}
+
+.list-zeit {
+
+    display: flex;
+    gap: 30px;
+}
+
+.title-zeit {
+
+    color: var(--green, #10B582);
+    text-align: center;
+    font-variant-numeric: lining-nums proportional-nums;
+    font-size: 58px;
+    font-weight: 500;
+    line-height: 1;
+    margin-bottom: 15px;
+}
+
+
+
+
+.text-zeit {
+    width: 270px;
+    color: var(--text-color);
+    text-align: center;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 1,2;
+
+}
+
+/* section tithers  */
+
+.tithers {
+
+    padding-bottom: 120px;
+}
+
+
+
+.title-tihers {
+    color: var(--text-color);
+    font-variant-numeric: lining-nums proportional-nums;
+    font-size: 58px;
+    font-weight: 500;
+    line-height: 1;
+    padding-top: 120px;
+    margin-bottom: 20px;
+}
+
+
+
+.text-tithers {
+    color: var(--text-color);
+    width: 500px;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 1,5; 
+
+}
+
+
+.information-tithers {
+
+    color: var(--text-color);
+    width: 500px;
+font-size: 16px;
+font-weight: 400;
+line-height: 1,5;
+margin-top: 20px;
+}
+
+.button-tithers {
+
+    border-radius: 0px 20px;
+background: var(--numer-color);
+padding-bottom: 20px;
+padding-top: 20px;
+padding-left: 38px;
+padding-right: 38px;
+margin-top: 50px;
+
+}
+
+.button-text {
+
+    color: var(--heder-color);
+text-align: center;
+font-size: 16px;
+font-weight: 500;
+line-height: 1;
+}
+
+
+
+.images-tither {
+    gap: 30px;
+    flex-wrap: wrap;
+    display: flex;
+
+}
+.tither-dark {
+    margin-bottom: 15px;
+    width: 170px;
+    height: 170px;
+
+}
+
+
+.text.dark {
+    color: var(--text-color);
+text-align: center;
+font-size: 14px;
+font-weight: 400;
+line-height: 1,3;
+}
+
+.tiherrs {
+    display: flex;
+    align-items: center;
+ 
+}
+.photos {
+    padding-top: 120px;
+}
+
+
+
